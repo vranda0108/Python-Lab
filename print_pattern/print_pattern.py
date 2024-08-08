@@ -11,7 +11,7 @@ def print_custom_pyramid(n):
             print(" ", end="")
         for k in range(2 * i + 1):
             if k == 0 or k == 2 * i:
-                print("*", end=" ")
+                print("*", end="")
             elif i == initial_lines - 1 and k == i:
                 print(n, end="")
             else:
