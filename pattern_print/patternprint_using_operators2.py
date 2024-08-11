@@ -24,7 +24,7 @@ def print_custom_pyramid(n):
             print(" ", end="")
         for k in range(2 * (n - i) + 1):
             if k == 0 or k == 2 * (n - i):
-                print("+", end="")
+                print("-", end="")
             else:
                 print(" ", end="")
         print()
